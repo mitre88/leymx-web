@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "title": "LeyMX — Mexican federal law, offline and instant",
+    "description": "Search 7,878 articles across 8 federal laws — fully offline. A serif reader, browse by area of law, and an on-device assistant that answers and cites the article. Built for lawyers and students.",
+    "ogAlt": "LeyMX — the law, in your pocket"
+  },
+  "nav": {
+    "features": "Features",
+    "privacy": "Privacy",
+    "support": "Support",
+    "download": "Download",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle light and dark",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "Mexican federal law · offline",
+    "title": "The law, the moment you need it.",
+    "subtitle": "LeyMX puts 8 federal laws — 7,878 articles — in your pocket. Full-text search that works with no signal, a reader made for long statutes, and an assistant that answers in plain language and cites the exact article.",
+    "ctaPrimary": "Download on the App Store",
+    "ctaSecondary": "How it works",
+    "badge": "Works fully offline",
+    "stat1Value": "7,878",
+    "stat1Label": "articles",
+    "stat2Value": "8",
+    "stat2Label": "federal laws",
+    "stat3Value": "0",
+    "stat3Label": "data collected",
+    "screenshotAlt": "LeyMX search screen with the owl mascot Teco"
+  },
+  "trust": {
+    "line": "No account. No tracking. No signal required."
+  },
+  "features": {
+    "eyebrow": "What it does",
+    "title": "Research that respects your time — and your privacy.",
+    "offline": {
+      "title": "Offline full-text search",
+      "body": "Every article is on your device. Search by keyword, topic, or article number and get results instantly — in court, on the metro, anywhere, with no connection."
+    },
+    "ai": {
+      "title": "On-device legal assistant",
+      "body": "Ask a question in plain words. The assistant runs locally with Apple Intelligence, answers, and points you to the articles it relied on. Your questions never leave your iPhone."
+    },
+    "reader": {
+      "title": "A reader built for statutes",
+      "body": "A calm serif page sized for long reading, with the source law and category always in view. Copy an article or share it in a tap."
+    },
+    "browse": {
+      "title": "Browse by area of law",
+      "body": "Constitutional, criminal, civil, labor, commercial, tax, amparo. Jump straight to the body of law you work in, organized the way a jurist thinks."
+    },
+    "oneTime": {
+      "title": "One-time purchase, no subscription",
+      "body": "Unlock LeyMX Pro once and keep it. Future updates to the texts are included. No monthly fee, no renewals, no surprises."
+    },
+    "privacy": {
+      "title": "Private by design",
+      "body": "There is no server behind LeyMX and no account to create. We collect nothing, transmit nothing, and have no analytics. The app simply works."
+    }
+  },
+  "areas": {
+    "eyebrow": "Eight federal laws",
+    "title": "Organized the way a jurist thinks.",
+    "subtitle": "From the Constitution to the procedural codes — grouped by area, ready to consult.",
+    "constitutional": "Constitutional",
+    "criminal": "Criminal",
+    "civil": "Civil",
+    "labor": "Labor",
+    "commercial": "Commercial",
+    "tax": "Tax",
+    "amparo": "Amparo"
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "From question to article in seconds.",
+    "step1Title": "Ask or search",
+    "step1Body": "Type a keyword, an article number, or a question like “grounds for dismissal.” Frequent searches are one tap away.",
+    "step2Title": "Read the source",
+    "step2Body": "Open the article in the serif reader, with its law and category labeled. Nothing paraphrased — the official text.",
+    "step3Title": "Confirm with the assistant",
+    "step3Body": "Ask the on-device assistant to explain or compare, and it answers citing the articles — so you can verify, not just trust."
+  },
+  "assistant": {
+    "eyebrow": "On-device intelligence",
+    "title": "An assistant that cites its sources.",
+    "body": "Most “AI” tools send your words to a server and answer from somewhere you can’t see. LeyMX’s assistant runs entirely on your iPhone with Apple Intelligence. It reads the laws already on your device, answers your question, and shows you the exact articles behind the answer — so a student can learn and a lawyer can verify.",
+    "point1": "Runs locally — questions never leave the device",
+    "point2": "Answers grounded in the actual statute text",
+    "point3": "Always shows the articles it relied on",
+    "screenshotAlt": "LeyMX assistant answering a question and citing articles"
+  },
+  "privacyBanner": {
+    "eyebrow": "Privacy",
+    "title": "We collect nothing. Not even a little.",
+    "body": "No account, no analytics, no advertising, no third-party trackers, no server receiving your activity. LeyMX is a tool you own, not a service that watches you.",
+    "cta": "Read the privacy policy"
+  },
+  "finalCta": {
+    "title": "Carry the law with you.",
+    "subtitle": "Download LeyMX and have 7,878 articles in your pocket — online or off.",
+    "cta": "Download on the App Store",
+    "note": "Requires iPhone with Apple Intelligence for the assistant. The law library works on any supported iPhone."
+  },
+  "disclaimer": {
+    "text": "LeyMX is a consultation and search tool. It is not legal advice and does not replace a qualified attorney."
+  },
+  "footer": {
+    "tagline": "Mexican federal law, offline and instant.",
+    "product": "Product",
+    "features": "Features",
+    "assistant": "Assistant",
+    "areas": "Areas of law",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "support": "Support",
+    "contact": "Contact",
+    "email": "Email us",
+    "source": "Legal texts: Cámara de Diputados",
+    "rights": "All rights reserved.",
+    "madeBy": "Built by Alejandro Hernández Mitre."
+  },
+  "badge": {
+    "placeholder": "Coming to the App Store"
+  },
+  "privacyPage": {
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "updated": "Last updated: June 29, 2026",
+    "intro": "We built LeyMX so you could carry the law with you without giving anything up in return. This policy explains, plainly, what happens to your information when you use the app. The short version: nothing leaves your iPhone.",
+    "s1Title": "What we collect",
+    "s1Body": "Nothing. LeyMX does not collect, store on our side, or transmit any personal data. There is no account to create, no sign-in, no profile, and no email or phone number required to use the app.",
+    "s2Title": "How the app works",
+    "s2Body": "The full library of laws and articles ships inside the app and lives on your device. Searching, reading, and browsing all happen locally. Because there is no server behind LeyMX, there is nothing for us to log and no record of what you read or search.",
+    "s3Title": "The on-device assistant",
+    "s3Body": "The assistant is powered by Apple Intelligence (Apple’s Foundation Models) and runs directly on your iPhone. The questions you ask it are processed on the device and are never sent to us or to any third party. We never see your queries.",
+    "s4Title": "Analytics and tracking",
+    "s4Body": "There are none. LeyMX contains no analytics SDKs, no advertising, no third-party trackers, and no tracking identifiers. We do not measure your usage and we do not build a profile of you.",
+    "s5Title": "Purchases",
+    "s5Body": "LeyMX Pro is a single one-time purchase handled entirely by Apple through the App Store. Apple processes the payment; we never receive your name, card details, or any information that identifies you. We only learn, in aggregate from Apple, how many purchases were made — never who made them.",
+    "s6Title": "Children",
+    "s6Body": "LeyMX is a legal reference tool suitable for a general audience. Because we collect no personal data from anyone, we collect none from children.",
+    "s7Title": "Changes to this policy",
+    "s7Body": "If we ever change how the app handles information, we will update this page and revise the date above. Since the app is fully on-device today, any future change would be communicated here first.",
+    "s8Title": "Contact",
+    "s8Body": "Questions about privacy? Write to us and a real person will reply.",
+    "backHome": "Back to home"
+  },
+  "supportPage": {
+    "eyebrow": "Support",
+    "title": "Help & support",
+    "intro": "Stuck on something, or have an idea to make LeyMX better? We read every message.",
+    "contactTitle": "Get in touch",
+    "contactBody": "Email us and we’ll get back to you within two business days.",
+    "contactCta": "Email support",
+    "faqTitle": "Frequently asked questions",
+    "faq1Q": "Does LeyMX work without an internet connection?",
+    "faq1A": "Yes — completely. All 7,878 articles are stored on your device, so search, reading, and browsing work anywhere, including in court or underground, with no signal.",
+    "faq2Q": "Which laws are included?",
+    "faq2A": "Eight federal bodies of law spanning constitutional, criminal, civil, labor, commercial, tax, and amparo matters. The texts come from the Cámara de Diputados and are public domain.",
+    "faq3Q": "How does the assistant work, and is it private?",
+    "faq3A": "The assistant runs on your iPhone using Apple Intelligence. It reads the laws already on the device, answers your question, and cites the relevant articles. Your questions never leave your phone.",
+    "faq4Q": "Is LeyMX a subscription?",
+    "faq4A": "No. LeyMX Pro is a single one-time purchase. Pay once, keep it, and future updates to the legal texts are included — no monthly fees.",
+    "faq5Q": "Can I rely on LeyMX as legal advice?",
+    "faq5A": "No. LeyMX is a research and consultation tool that gives you the official text and helps you find it quickly. It is not legal advice and does not replace a qualified attorney.",
+    "faq6Q": "Which devices are supported?",
+    "faq6A": "The law library works on any supported iPhone. The on-device assistant requires an iPhone that supports Apple Intelligence.",
+    "howtoTitle": "Quick start",
+    "howto1": "Open the app and tap the search bar — or pick a frequent search like “amparo” or “dismissal.”",
+    "howto2": "Tap a result to read the full article in the reader, with its law and category shown.",
+    "howto3": "Ask the assistant to explain or compare; check the articles it cites.",
+    "howto4": "Browse by area of law to explore a whole body of legislation.",
+    "backHome": "Back to home"
+  },
+  "termsPage": {
+    "eyebrow": "Legal",
+    "title": "Terms of Use",
+    "updated": "Last updated: June 29, 2026",
+    "intro": "These terms govern your use of the LeyMX app. By using LeyMX, you agree to them. We’ve kept them short and readable.",
+    "s1Title": "License to use the app",
+    "s1Body": "We grant you a personal, non-exclusive, non-transferable license to use LeyMX on your devices for your own legal research. The app and its design are ours; the underlying legal texts are public domain (see attribution below).",
+    "s2Title": "Not legal advice",
+    "s2Body": "LeyMX is a consultation and search tool. It provides the text of the law and helps you find it, but it does not provide legal advice, does not create an attorney–client relationship, and does not replace a qualified lawyer. Always verify against an official source and consult a professional for your specific situation.",
+    "s3Title": "Accuracy of the texts",
+    "s3Body": "We work to keep the legal texts accurate and current, sourcing them from the Cámara de Diputados. Laws change, and errors can occur in any compilation. We make no warranty that the texts are complete, current, or error-free, and the official publication always prevails.",
+    "s4Title": "The on-device assistant",
+    "s4Body": "The assistant is a convenience that summarizes and points to articles. Its responses can be incomplete or wrong, like any automated tool. Treat its answers as a starting point to be verified against the cited articles — never as a definitive legal conclusion.",
+    "s5Title": "Public-domain content attribution",
+    "s5Body": "The legal texts in LeyMX are official Mexican federal laws in the public domain, obtained from the Cámara de Diputados (diputados.gob.mx). LeyMX is an independent product and is not affiliated with, endorsed by, or sponsored by any government body.",
+    "s6Title": "Purchases",
+    "s6Body": "LeyMX Pro is a one-time purchase processed by Apple under the App Store terms. It is not a subscription and does not renew. Refunds are handled by Apple according to its policies.",
+    "s7Title": "Limitation of liability",
+    "s7Body": "To the fullest extent permitted by law, LeyMX and its developer are not liable for any loss or damage arising from your use of, or reliance on, the app or the assistant. The app is provided “as is.”",
+    "s8Title": "Governing law",
+    "s8Body": "These terms are governed by the laws of the United Mexican States, without regard to conflict-of-law rules.",
+    "s9Title": "Contact",
+    "s9Body": "Questions about these terms? Reach out and we’ll be glad to help.",
+    "backHome": "Back to home"
+  }
+}

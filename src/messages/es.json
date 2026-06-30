@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "title": "LeyMX — Legislación federal mexicana, sin conexión e instantánea",
+    "description": "Busca entre 7,878 artículos de 8 leyes federales — sin conexión. Lector con tipografía serif, consulta por materia y un asistente en el dispositivo que responde y cita el artículo. Hecho para abogados y estudiantes.",
+    "ogAlt": "LeyMX — la ley, en tu bolsillo"
+  },
+  "nav": {
+    "features": "Funciones",
+    "privacy": "Privacidad",
+    "support": "Soporte",
+    "download": "Descargar",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "toggleTheme": "Cambiar claro y oscuro",
+    "language": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "Legislación federal mexicana · sin conexión",
+    "title": "La ley, justo cuando la necesitas.",
+    "subtitle": "LeyMX pone 8 leyes federales —7,878 artículos— en tu bolsillo. Búsqueda de texto completo que funciona sin señal, un lector pensado para textos largos y un asistente que responde con claridad y cita el artículo exacto.",
+    "ctaPrimary": "Descargar en el App Store",
+    "ctaSecondary": "Cómo funciona",
+    "badge": "Funciona sin conexión",
+    "stat1Value": "7,878",
+    "stat1Label": "artículos",
+    "stat2Value": "8",
+    "stat2Label": "leyes federales",
+    "stat3Value": "0",
+    "stat3Label": "datos recopilados",
+    "screenshotAlt": "Pantalla de búsqueda de LeyMX con la mascota tecolote Teco"
+  },
+  "trust": {
+    "line": "Sin cuenta. Sin rastreo. Sin necesidad de señal."
+  },
+  "features": {
+    "eyebrow": "Qué hace",
+    "title": "Consulta que respeta tu tiempo — y tu privacidad.",
+    "offline": {
+      "title": "Búsqueda de texto completo sin conexión",
+      "body": "Cada artículo vive en tu dispositivo. Busca por palabra clave, tema o número de artículo y obtén resultados al instante — en el juzgado, en el metro, donde sea, sin conexión."
+    },
+    "ai": {
+      "title": "Asistente jurídico en el dispositivo",
+      "body": "Pregunta con tus propias palabras. El asistente funciona localmente con Apple Intelligence, responde y te señala los artículos en los que se apoyó. Tus preguntas nunca salen de tu iPhone."
+    },
+    "reader": {
+      "title": "Un lector hecho para leyes",
+      "body": "Una página serif serena, dimensionada para lectura larga, con la ley de origen y la materia siempre a la vista. Copia un artículo o compártelo con un toque."
+    },
+    "browse": {
+      "title": "Explora por materia",
+      "body": "Constitucional, penal, civil, laboral, mercantil, fiscal, amparo. Ve directo al cuerpo normativo en el que trabajas, organizado como piensa un jurista."
+    },
+    "oneTime": {
+      "title": "Pago único, sin suscripción",
+      "body": "Desbloquea LeyMX Pro una vez y consérvalo. Las futuras actualizaciones de los textos están incluidas. Sin cuota mensual, sin renovaciones, sin sorpresas."
+    },
+    "privacy": {
+      "title": "Privado por diseño",
+      "body": "Detrás de LeyMX no hay servidor ni cuenta que crear. No recopilamos nada, no transmitimos nada y no tenemos analítica. La app simplemente funciona."
+    }
+  },
+  "areas": {
+    "eyebrow": "Ocho leyes federales",
+    "title": "Organizado como piensa un jurista.",
+    "subtitle": "De la Constitución a los códigos procesales — agrupado por materia, listo para consultar.",
+    "constitutional": "Constitucional",
+    "criminal": "Penal",
+    "civil": "Civil",
+    "labor": "Laboral",
+    "commercial": "Mercantil",
+    "tax": "Fiscal",
+    "amparo": "Amparo"
+  },
+  "how": {
+    "eyebrow": "Cómo funciona",
+    "title": "De la duda al artículo en segundos.",
+    "step1Title": "Pregunta o busca",
+    "step1Body": "Escribe una palabra clave, un número de artículo o una pregunta como «causales de despido». Las consultas frecuentes están a un toque.",
+    "step2Title": "Lee la fuente",
+    "step2Body": "Abre el artículo en el lector serif, con su ley y materia identificadas. Nada parafraseado — el texto oficial.",
+    "step3Title": "Confirma con el asistente",
+    "step3Body": "Pídele al asistente en el dispositivo que explique o compare, y responde citando los artículos — para que verifiques, no solo confíes."
+  },
+  "assistant": {
+    "eyebrow": "Inteligencia en el dispositivo",
+    "title": "Un asistente que cita sus fuentes.",
+    "body": "La mayoría de las herramientas «con IA» envían tus palabras a un servidor y responden desde un lugar que no ves. El asistente de LeyMX funciona por completo en tu iPhone con Apple Intelligence. Lee las leyes que ya están en tu dispositivo, responde tu pregunta y te muestra los artículos exactos detrás de la respuesta — para que un estudiante aprenda y un abogado verifique.",
+    "point1": "Funciona localmente — las preguntas nunca salen del dispositivo",
+    "point2": "Respuestas fundamentadas en el texto real de la ley",
+    "point3": "Siempre muestra los artículos en que se apoyó",
+    "screenshotAlt": "El asistente de LeyMX respondiendo una pregunta y citando artículos"
+  },
+  "privacyBanner": {
+    "eyebrow": "Privacidad",
+    "title": "No recopilamos nada. Ni un poco.",
+    "body": "Sin cuenta, sin analítica, sin publicidad, sin rastreadores de terceros, sin un servidor que reciba tu actividad. LeyMX es una herramienta que posees, no un servicio que te vigila.",
+    "cta": "Leer el aviso de privacidad"
+  },
+  "finalCta": {
+    "title": "Lleva la ley contigo.",
+    "subtitle": "Descarga LeyMX y ten 7,878 artículos en tu bolsillo — con conexión o sin ella.",
+    "cta": "Descargar en el App Store",
+    "note": "El asistente requiere un iPhone con Apple Intelligence. La biblioteca de leyes funciona en cualquier iPhone compatible."
+  },
+  "disclaimer": {
+    "text": "LeyMX es una herramienta de consulta y búsqueda. No constituye asesoría jurídica ni sustituye a un abogado calificado."
+  },
+  "footer": {
+    "tagline": "Legislación federal mexicana, sin conexión e instantánea.",
+    "product": "Producto",
+    "features": "Funciones",
+    "assistant": "Asistente",
+    "areas": "Materias",
+    "legal": "Legal",
+    "privacy": "Aviso de privacidad",
+    "terms": "Términos de uso",
+    "support": "Soporte",
+    "contact": "Contacto",
+    "email": "Escríbenos",
+    "source": "Textos legales: Cámara de Diputados",
+    "rights": "Todos los derechos reservados.",
+    "madeBy": "Hecho por Alejandro Hernández Mitre."
+  },
+  "badge": {
+    "placeholder": "Próximamente en el App Store"
+  },
+  "privacyPage": {
+    "eyebrow": "Legal",
+    "title": "Aviso de privacidad",
+    "updated": "Última actualización: 29 de junio de 2026",
+    "intro": "Construimos LeyMX para que pudieras llevar la ley contigo sin ceder nada a cambio. Este aviso explica, con claridad, qué ocurre con tu información cuando usas la app. La versión corta: nada sale de tu iPhone.",
+    "s1Title": "Qué recopilamos",
+    "s1Body": "Nada. LeyMX no recopila, no almacena de nuestro lado ni transmite ningún dato personal. No hay cuenta que crear, ni inicio de sesión, ni perfil, ni se requiere correo o teléfono para usar la app.",
+    "s2Title": "Cómo funciona la app",
+    "s2Body": "La biblioteca completa de leyes y artículos viene dentro de la app y reside en tu dispositivo. Buscar, leer y explorar ocurre de forma local. Como no hay servidor detrás de LeyMX, no hay nada que registremos ni constancia de lo que lees o buscas.",
+    "s3Title": "El asistente en el dispositivo",
+    "s3Body": "El asistente funciona con Apple Intelligence (los Foundation Models de Apple) y se ejecuta directamente en tu iPhone. Las preguntas que le haces se procesan en el dispositivo y nunca se envían a nosotros ni a ningún tercero. Jamás vemos tus consultas.",
+    "s4Title": "Analítica y rastreo",
+    "s4Body": "No existen. LeyMX no contiene SDK de analítica, ni publicidad, ni rastreadores de terceros, ni identificadores de seguimiento. No medimos tu uso ni construimos un perfil tuyo.",
+    "s5Title": "Compras",
+    "s5Body": "LeyMX Pro es una compra única gestionada por completo por Apple a través del App Store. Apple procesa el pago; nosotros nunca recibimos tu nombre, datos de tu tarjeta ni información que te identifique. Solo sabemos, de forma agregada por parte de Apple, cuántas compras se realizaron — nunca quién las hizo.",
+    "s6Title": "Menores",
+    "s6Body": "LeyMX es una herramienta de consulta jurídica apta para público general. Como no recopilamos datos personales de nadie, tampoco los recopilamos de menores.",
+    "s7Title": "Cambios a este aviso",
+    "s7Body": "Si alguna vez cambiáramos cómo la app maneja la información, actualizaríamos esta página y la fecha de arriba. Dado que hoy la app funciona por completo en el dispositivo, cualquier cambio futuro se comunicaría aquí primero.",
+    "s8Title": "Contacto",
+    "s8Body": "¿Dudas sobre privacidad? Escríbenos y te responderá una persona real.",
+    "backHome": "Volver al inicio"
+  },
+  "supportPage": {
+    "eyebrow": "Soporte",
+    "title": "Ayuda y soporte",
+    "intro": "¿Te atoraste con algo o tienes una idea para mejorar LeyMX? Leemos cada mensaje.",
+    "contactTitle": "Contáctanos",
+    "contactBody": "Escríbenos y te respondemos en un máximo de dos días hábiles.",
+    "contactCta": "Escribir a soporte",
+    "faqTitle": "Preguntas frecuentes",
+    "faq1Q": "¿LeyMX funciona sin conexión a internet?",
+    "faq1A": "Sí — por completo. Los 7,878 artículos se guardan en tu dispositivo, así que la búsqueda, la lectura y la exploración funcionan en cualquier lugar, incluido el juzgado o el subterráneo, sin señal.",
+    "faq2Q": "¿Qué leyes incluye?",
+    "faq2A": "Ocho cuerpos normativos federales que abarcan materia constitucional, penal, civil, laboral, mercantil, fiscal y de amparo. Los textos provienen de la Cámara de Diputados y son de dominio público.",
+    "faq3Q": "¿Cómo funciona el asistente y es privado?",
+    "faq3A": "El asistente funciona en tu iPhone con Apple Intelligence. Lee las leyes que ya están en el dispositivo, responde tu pregunta y cita los artículos relevantes. Tus preguntas nunca salen de tu teléfono.",
+    "faq4Q": "¿LeyMX es una suscripción?",
+    "faq4A": "No. LeyMX Pro es una compra única. Pagas una vez, lo conservas y las futuras actualizaciones de los textos están incluidas — sin cuotas mensuales.",
+    "faq5Q": "¿Puedo usar LeyMX como asesoría jurídica?",
+    "faq5A": "No. LeyMX es una herramienta de consulta e investigación que te da el texto oficial y te ayuda a encontrarlo rápido. No es asesoría jurídica ni sustituye a un abogado calificado.",
+    "faq6Q": "¿Qué dispositivos son compatibles?",
+    "faq6A": "La biblioteca de leyes funciona en cualquier iPhone compatible. El asistente en el dispositivo requiere un iPhone con Apple Intelligence.",
+    "howtoTitle": "Inicio rápido",
+    "howto1": "Abre la app y toca la barra de búsqueda — o elige una consulta frecuente como «amparo» o «despido».",
+    "howto2": "Toca un resultado para leer el artículo completo en el lector, con su ley y materia.",
+    "howto3": "Pídele al asistente que explique o compare; revisa los artículos que cita.",
+    "howto4": "Explora por materia para recorrer un cuerpo normativo completo.",
+    "backHome": "Volver al inicio"
+  },
+  "termsPage": {
+    "eyebrow": "Legal",
+    "title": "Términos de uso",
+    "updated": "Última actualización: 29 de junio de 2026",
+    "intro": "Estos términos rigen tu uso de la app LeyMX. Al usar LeyMX, los aceptas. Los mantuvimos breves y legibles.",
+    "s1Title": "Licencia de uso de la app",
+    "s1Body": "Te otorgamos una licencia personal, no exclusiva e intransferible para usar LeyMX en tus dispositivos para tu propia investigación jurídica. La app y su diseño son nuestros; los textos legales subyacentes son de dominio público (ver atribución más abajo).",
+    "s2Title": "No es asesoría jurídica",
+    "s2Body": "LeyMX es una herramienta de consulta y búsqueda. Proporciona el texto de la ley y te ayuda a encontrarlo, pero no brinda asesoría jurídica, no crea una relación abogado–cliente y no sustituye a un abogado calificado. Verifica siempre contra una fuente oficial y consulta a un profesional para tu caso específico.",
+    "s3Title": "Exactitud de los textos",
+    "s3Body": "Trabajamos para mantener los textos legales exactos y vigentes, tomándolos de la Cámara de Diputados. Las leyes cambian y cualquier compilación puede contener errores. No garantizamos que los textos sean completos, vigentes o libres de error, y la publicación oficial siempre prevalece.",
+    "s4Title": "El asistente en el dispositivo",
+    "s4Body": "El asistente es una comodidad que resume y señala artículos. Sus respuestas pueden ser incompletas o erróneas, como cualquier herramienta automatizada. Trata sus respuestas como un punto de partida que debe verificarse contra los artículos citados — nunca como una conclusión jurídica definitiva.",
+    "s5Title": "Atribución de contenido de dominio público",
+    "s5Body": "Los textos legales en LeyMX son leyes federales mexicanas oficiales de dominio público, obtenidas de la Cámara de Diputados (diputados.gob.mx). LeyMX es un producto independiente y no está afiliado, respaldado ni patrocinado por ningún órgano de gobierno.",
+    "s6Title": "Compras",
+    "s6Body": "LeyMX Pro es una compra única procesada por Apple conforme a los términos del App Store. No es una suscripción y no se renueva. Los reembolsos los gestiona Apple según sus políticas.",
+    "s7Title": "Limitación de responsabilidad",
+    "s7Body": "En la máxima medida permitida por la ley, LeyMX y su desarrollador no son responsables de pérdida o daño alguno derivado del uso o de la confianza depositada en la app o en el asistente. La app se proporciona «tal cual».",
+    "s8Title": "Ley aplicable",
+    "s8Body": "Estos términos se rigen por las leyes de los Estados Unidos Mexicanos, sin atender a las reglas de conflicto de leyes.",
+    "s9Title": "Contacto",
+    "s9Body": "¿Dudas sobre estos términos? Escríbenos y con gusto te ayudamos.",
+    "backHome": "Volver al inicio"
+  }
+}

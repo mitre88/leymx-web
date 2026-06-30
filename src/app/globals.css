@@ -1,26 +1,262 @@
 @import "tailwindcss";
 
+/* next-themes toggles a `.dark` class — make Tailwind's dark: respond to it. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+   LeyMX — "ink & brass" design system
+   Deep ink/navy ground + warm brass accent. Judicial, refined.
+   Display: Fraunces (editorial serif). UI/body: San Francisco Pro.
+   ============================================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* --- Brand palette --- */
+  --ink-900: #06101c;   /* deepest ink — app ground */
+  --ink-800: #0b1828;
+  --ink-700: #122336;
+  --ink-600: #1c3047;
+  --brass-600: #a8852f;
+  --brass-500: #c9a24b; /* primary brass accent */
+  --brass-400: #d8b66a;
+  --brass-300: #e6cf99;
+
+  /* --- Semantic tokens (light theme default) --- */
+  --background: #fbf8f1;
+  --surface: #ffffff;
+  --surface-2: #f4eee1;
+  --foreground: #0d1622;
+  --muted: #51606f;
+  --faint: #67707c; /* AA on paper */
+  --hairline: rgba(13, 22, 34, 0.10);
+  --accent: #806223; /* darker brass for text → AA on light surfaces */
+  --on-accent: #1a1304;
+  --ring: rgba(168, 133, 47, 0.45);
+
+  /* materia hues (match the app's colored tiles) */
+  --m-const: #b08a3a;
+  --m-penal: #b4543f;
+  --m-civil: #3f7a5e;
+  --m-labor: #3a5f93;
+  --m-merc: #6a5a93;
+  --m-fisc: #b08a3a;
+  --m-amp: #8a6a1f;
+
+  --radius: 18px;
+  --shadow-card: 0 1px 0 rgba(255,255,255,.6) inset, 0 2px 4px rgba(13,22,34,.05), 0 18px 50px -28px rgba(13,22,34,.32);
+}
+
+.dark {
+  --background: #06101c;
+  --surface: #0d1c2e;
+  --surface-2: #122336;
+  --foreground: #eef1f5;
+  --muted: #9aa6b4;
+  --faint: #647486;
+  --hairline: rgba(255, 255, 255, 0.10);
+  --accent: var(--brass-500);
+  --on-accent: #120c02;
+  --ring: rgba(201, 162, 75, 0.55);
+  --shadow-card: 0 1px 0 rgba(255,255,255,.04) inset, 0 2px 6px rgba(0,0,0,.5), 0 26px 60px -30px rgba(0,0,0,.85);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --color-ink: var(--ink-900);
+  --color-brass: var(--brass-500);
+
+  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--hairline);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+/* Display serif utility */
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+}
+
+/* Fluid type scale (editorial, real hierarchy) */
+.t-display {
+  font-family: var(--font-display);
+  font-weight: 460;
+  font-size: clamp(2.6rem, 1.6rem + 4.6vw, 5.4rem);
+  line-height: 0.99;
+  letter-spacing: -0.018em;
+  font-optical-sizing: auto;
+}
+.t-h2 {
+  font-family: var(--font-display);
+  font-weight: 480;
+  font-size: clamp(1.9rem, 1.3rem + 2.4vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.012em;
+}
+.t-h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.3rem, 1.05rem + 0.9vw, 1.65rem);
+  line-height: 1.14;
+  letter-spacing: -0.006em;
+}
+.t-eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.t-lead {
+  font-size: clamp(1.05rem, 0.98rem + 0.5vw, 1.28rem);
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.text-brass { color: var(--accent); }
+.text-balance { text-wrap: balance; }
+
+/* Atmosphere: subtle film grain overlay */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+}
+
+.rule-brass {
+  height: 1px;
+  background: linear-gradient(90deg, var(--accent), transparent 70%);
+}
+
+/* Buttons */
+.btn-brass {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(180deg, var(--brass-400), var(--brass-600));
+  color: var(--on-accent);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border-radius: 999px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.35) inset, 0 10px 24px -10px rgba(168,133,47,.6);
+  transition: transform .18s cubic-bezier(.2,.7,.2,1), box-shadow .18s, filter .18s;
+}
+.btn-brass:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.04);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset, 0 16px 32px -10px rgba(168,133,47,.7);
+}
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  color: var(--foreground);
+  transition: border-color .18s, background .18s, transform .18s;
+}
+.btn-ghost:hover {
+  border-color: var(--ring);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+}
+
+/* Focus visibility — accessibility */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Hero one-shot load reveal */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    animation: reveal .9s cubic-bezier(.2,.7,.2,1) forwards;
+  }
+  @keyframes reveal {
+    to { opacity: 1; transform: none; }
+  }
+  .float-slow {
+    animation: floaty 7s ease-in-out infinite;
+  }
+  @keyframes floaty {
+    0%,100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(-1deg); }
+  }
+}
+
+/* Device frame */
+.device {
+  position: relative;
+  border-radius: 44px;
+  padding: 10px;
+  background: linear-gradient(160deg, #232b35, #0c1118);
+  box-shadow:
+    0 0 0 2px rgba(0,0,0,.5),
+    0 1px 0 rgba(255,255,255,.08) inset,
+    0 50px 90px -40px rgba(0,0,0,.7);
+}
+.device::after {
+  content: "";
+  position: absolute;
+  top: 18px; left: 50%; transform: translateX(-50%);
+  width: 34%; height: 24px;
+  background: #06090e;
+  border-radius: 0 0 18px 18px;
+  z-index: 3;
+}
+.device-screen {
+  position: relative;
+  border-radius: 36px;
+  overflow: hidden;
+  background: #06101c;
+  font-size: 0;
+}
+
+/* decorative gridlines */
+.legal-grid {
+  background-image:
+    linear-gradient(to right, var(--hairline) 1px, transparent 1px);
+  background-size: 88px 100%;
 }
