@@ -44,16 +44,17 @@ export async function generateMetadata({
       description: t("description"),
       locale,
       url: locale === routing.defaultLocale ? SITE_URL : `${SITE_URL}/${locale}`,
-      images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: t("ogAlt") }],
+      // og:image is auto-injected by the app/opengraph-image.tsx file convention.
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
+      // twitter:image is auto-injected by opengraph-image.tsx as well.
     },
     icons: {
+      // SVG favicon from public/. apple-icon is auto-wired by app/apple-icon.tsx.
       icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-      apple: [{ url: "/apple-icon.png" }],
     },
   };
 }
